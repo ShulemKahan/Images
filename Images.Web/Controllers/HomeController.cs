@@ -56,7 +56,7 @@ namespace Images.Web.Controllers
         [HttpPost]
         public IActionResult viewImage(int id, string password)
         {
-            ImageViewModel vm = new ImageViewModel();
+             ImageViewModel vm = new ImageViewModel();
             Manager repo = new Manager(_connectionString);
             var image = repo.GetImage(id);
             if (password == image.Password)
