@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Images.Web", "Images.Web\Images.Web.csproj", "{6A0FC224-7307-44C8-B9F8-FE2B9B0D1542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Images.Data", "Images.Data\Images.Data.csproj", "{FABDB31A-48FA-4DF2-92A3-937DD8C5E225}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A0FC224-7307-44C8-B9F8-FE2B9B0D1542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0FC224-7307-44C8-B9F8-FE2B9B0D1542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0FC224-7307-44C8-B9F8-FE2B9B0D1542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0FC224-7307-44C8-B9F8-FE2B9B0D1542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FABDB31A-48FA-4DF2-92A3-937DD8C5E225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FABDB31A-48FA-4DF2-92A3-937DD8C5E225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FABDB31A-48FA-4DF2-92A3-937DD8C5E225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FABDB31A-48FA-4DF2-92A3-937DD8C5E225}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBC8872B-D9B2-4A77-97F3-F4D874C29898}
+	EndGlobalSection
+EndGlobal
